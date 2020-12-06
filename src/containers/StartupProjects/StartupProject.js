@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import "./StartupProjects.css";
-import { bigProjects } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
@@ -14,7 +13,6 @@ export default function StartupProject() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
         <div>
-          <h1 className="skills-heading">{bigProjects.title}</h1>
           <p
             className={
               isDark
@@ -22,20 +20,9 @@ export default function StartupProject() {
                 : "subTitle project-subtitle"
             }
           >
-            {bigProjects.subtitle}
           </p>
           <div className="startup-projects-main">
             <div className="startup-project-text">
-              {bigProjects.projects.map((project) => {
-                return (
-                  <div
-                    className="saaya-health-div"
-                    onClick={() => openProjectInNewWindow(project.link)}
-                  >
-                    <img alt="Saad Working" src={project.image}></img>
-                  </div>
-                );
-              })}
             </div>
             <div className="startup-project-image"></div>
           </div>
