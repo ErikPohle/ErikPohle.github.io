@@ -102,10 +102,10 @@ const educationInfo = {
       logo: require("./assets/images/cuboulder.jpg"),
       subHeader: "Bachelors of Science in Computer Science",
       duration: "September 2017 - May 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      desc: "GPA: 3.5",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "",
+        ""
       ]
     }
   ]
@@ -126,7 +126,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "90%"
     }
   ]
 };
@@ -138,42 +138,48 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Cloud Systems and Solutions Part Time",
+      company: "Seagate",
+      companylogo: require("./assets/images/seagate.jpg"),
+      date: "August 2020 – Present",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Continue to work on the Cloud Team to enhance device simulations for testing, development, and sales purposes.",
+        "Integrating the device simulations app with the testing suite."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Cloud Systems and Solutions Intern",
+      company: "Seagate",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "May 2020 – August 2020",
+      desc: "",
+      descBullets: [
+        "Worked on the Cloud Team to enhance device simulations for testing, development, and sales purposes.",
+        "Created a web app from the ground up with Vue JS, Express, and Node.js."
+      ]
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
+      company: "Windward",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Sept 2018 – Apr 2020",
+      desc: "",
+      descBullets: [
+        "Use JIRA, Visual Studio Online, Git, and other tools for software development.",
+        "As a developer, my work includes bug fixes, code reviews, git-management, occasional QA test work, and creating new features/improvements."
+      ]
     },
   ]
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
-
 
 // Some Big Projects You have worked with your company
 
@@ -290,4 +296,6 @@ const twitterDetails = {
   userName : "twitter"//Replace "twitter" with your twitter username without @
 
 };
+
+*/
 export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
