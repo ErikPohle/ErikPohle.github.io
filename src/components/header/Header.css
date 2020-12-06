@@ -20,6 +20,10 @@
   margin: 0px auto;
 }
 
+.header-left {
+  font-size: 33px;
+}
+
 .header ul {
   margin: 0;
   padding: 0;
