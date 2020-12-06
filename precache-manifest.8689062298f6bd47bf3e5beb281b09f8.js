@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e5643964a53faa1a2c0ce10f341d7fd1",
+    "revision": "3534a0656ef6c63ba36f865d84a4dbb1",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "02cba8f8a4541e1639f1",
+    "revision": "67b84eb522f836183a8a",
     "url": "/portfolio/static/css/main.991c1fbb.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.29e4729f.chunk.js"
   },
   {
-    "revision": "02cba8f8a4541e1639f1",
-    "url": "/portfolio/static/js/main.7a405ece.chunk.js"
+    "revision": "67b84eb522f836183a8a",
+    "url": "/portfolio/static/js/main.b43f7436.chunk.js"
   },
   {
     "revision": "a6cc502e705a10b7f3f2",
@@ -28,19 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "59389695208d7454c6607bed51ed4316",
-    "url": "/portfolio/static/media/developerActivity.59389695.svg"
-  },
-  {
     "revision": "25bf045ca257e971124f3997d89f321c",
     "url": "/portfolio/static/media/logo.25bf045c.svg"
-  },
-  {
-    "revision": "52be31441c8cf8a8a16bd7a228d428bf",
-    "url": "/portfolio/static/media/manOnTable.52be3144.svg"
-  },
-  {
-    "revision": "3440939881da8339d1597e8d77cdf850",
-    "url": "/portfolio/static/media/skill.34409398.svg"
   }
 ]);
