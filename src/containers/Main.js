@@ -35,10 +35,10 @@ export default class Main extends Component {
         >
           <Header />
           <Greeting />
-          <StackProgress />
-          <Skills />
           <Education />
+          <Skills />
           <WorkExperience />
+          <StackProgress />
           <StartupProject />
           <Top />
         </StyleProvider>
