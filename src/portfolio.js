@@ -8,8 +8,10 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Erik Pohle",
-  title: "Hi all, I'm Erik",
-  subTitle: "A passionate Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.",
+  title: "Hi, I'm Erik",
+
+  // 
+  subTitle: "I'm a passionate software developer with experience in building web applications with JavaScript / Vue.JS / React / Nodejs and some other cool libraries and frameworks.",
   resumeLink: "https://docs.google.com/document/d/1tt10gcBBZxWYzK72jyyyZmqSKYTKGQF5JftwbCpMq8s/edit?usp=sharing"
 };
 
@@ -25,18 +27,26 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Skills",
+  subTitle: "",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    "Experienced in both frontend and backend development",
+    "Capable in developing web applications",
+    "Integration of third party services such as AWS"
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "c",
+      fontAwesomeClassname: "fab fa-cuttlefish"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -66,24 +76,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-vuejs"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
@@ -116,15 +110,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", 
-      progressPercentage: "80%" 
+      progressPercentage: "85%" 
     },
     {
       Stack: "Backend",
-      progressPercentage: "85%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%"
+      progressPercentage: "95%"
     }
   ]
 };
