@@ -29,8 +29,8 @@ const skillsSection = {
   subTitle: "",
   skills: [
     "Experienced in both frontend and backend development",
-    "Capable in developing web applications",
-    "Integration of third party services such as AWS"
+    "Capable in developing high-end, scalable web applications",
+    "Ability to perform integration of third party services such as AWS"
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -46,6 +46,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-cuttlefish"
     },
     {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -54,11 +58,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
+      skillName: "javascript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -66,20 +66,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
       skillName: "vuejs",
       fontAwesomeClassname: "fab fa-vuejs"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "sass",
+      fontAwesomeClassname: "fab fa-sass"
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "docker",
