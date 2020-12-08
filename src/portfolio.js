@@ -3,8 +3,6 @@
 
 // Your Summary And Greeting Section
 
-import emoji from "react-easy-emoji";
-
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Erik Pohle",
@@ -134,7 +132,8 @@ const workExperiences = {
       desc: "",
       descBullets: [
         "Continue to work on the Cloud Team to enhance device simulations for testing, development, and sales purposes.",
-        "Integrating the device simulations app with the testing suite."
+        "Integrating the device simulations app with the testing suite.",
+        "Improving overall test coverage and infrastructure"
       ]
     },
     {

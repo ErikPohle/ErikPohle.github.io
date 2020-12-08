@@ -9,7 +9,6 @@ import Top from "./topbutton/Top";
 import Skills from "./skills/Skills";
 import { StyleProvider } from "../contexts/StyleContext";
 import "./Main.css";
-import { educationInfo } from "../portfolio";
 
 export default class Main extends Component {
   constructor(props) {
@@ -20,7 +19,6 @@ export default class Main extends Component {
   }
 
   componentDidMount() {
-    const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
     this.setState({ isDark: true });
   }
   changeTheme = () => {
