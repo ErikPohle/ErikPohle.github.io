@@ -23,6 +23,9 @@ function Header() {
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
             <a href="#skills">Skills</a>
           </li>
           {exp === true && (
