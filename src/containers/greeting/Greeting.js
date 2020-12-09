@@ -5,6 +5,7 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import { socialMediaLinks } from "../../portfolio";
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
@@ -31,7 +32,7 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <Button text="Contact me" href={`mailto:${socialMediaLinks.gmail}`} newTab="_blank" />
                 <Button
                   text="Resume"
                   newTab={true}
