@@ -3,6 +3,7 @@ import Headroom from "react-headroom";
 import "./Header.css";
 import StyleContext from "../../contexts/StyleContext";
 import { workExperiences } from "../../portfolio";
+import { socialMediaLinks } from "../../portfolio";
 
 function Header() {
   const { isDark } = useContext(StyleContext);
@@ -40,7 +41,7 @@ function Header() {
             <a href="#skillsProgress">Proficiency</a>
           </li>
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href={`mailto:${socialMediaLinks.gmail}`} newTab="_blank">Contact Me</a>
           </li>
         </ul>
       </header>
