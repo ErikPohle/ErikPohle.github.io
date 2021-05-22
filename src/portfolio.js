@@ -96,7 +96,7 @@ const educationInfo = {
       logo: require("./assets/images/cuboulder.jpg"),
       subHeader: "Bachelors of Science in Computer Science",
       duration: "September 2017 - May 2021",
-      desc: "GPA: 3.6 <br>Major GPA: 3.8",
+      desc: "GPA: 3.6 - Major GPA: 3.8",
       descBullets: [
       ]
     }
