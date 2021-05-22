@@ -125,10 +125,23 @@ const workExperiences = {
   viewExperiences: true,
   experience: [
     {
+      role: "Cloud Systems and Solutions Software Engineer",
+      company: "Seagate",
+      companylogo: require("./assets/images/seagate.png"),
+      date: "June 2021 – Present",
+      desc: "",
+      descBullets: [
+        "Start full time work on the Cloud Team to enhance device simulations for testing, development, and sales purposes.",
+        "Integrating the device simulations app with the testing suite.",
+        "Improving overall test coverage and infrastructure.",
+        "Research and develop feature work for product"
+      ]
+    },
+    {
       role: "Cloud Systems and Solutions Part Time",
       company: "Seagate",
       companylogo: require("./assets/images/seagate.png"),
-      date: "August 2020 – Present",
+      date: "August 2020 – April 2021",
       desc: "",
       descBullets: [
         "Continue to work on the Cloud Team to enhance device simulations for testing, development, and sales purposes.",
