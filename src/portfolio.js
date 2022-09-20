@@ -28,9 +28,9 @@ const skillsSection = {
   title: "Skills",
   subTitle: "",
   skills: [
-    "Experienced in both frontend and backend development",
-    "Capable in developing high-end, scalable web applications",
-    "Ability to perform integration of third party services such as AWS"
+    "Experienced in both frontend and backend development.",
+    "Capable in developing high-end, scalable web applications.",
+    "Ability to perform integration of third party services such as AWS, Azure, Kubernetes, Docker."
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -128,13 +128,13 @@ const workExperiences = {
       role: "Cloud Systems and Solutions Software Engineer",
       company: "Seagate",
       companylogo: require("./assets/images/seagate.png"),
-      date: "June 2021 – Present",
+      date: "June 2021 – September 2022",
       desc: "",
       descBullets: [
-        "Start full time work on the Cloud Team to enhance device simulations for testing, development, and sales purposes.",
-        "Integrating the device simulations app with the testing suite.",
-        "Improving overall test coverage and infrastructure.",
-        "Research and develop feature work for product"
+        "Developed telemetry collection service that enabled data management through common interfaces such as S3 (minIO & AWS) and Kafka (Azure).",
+        "Defined REST endpoints for providing latest firmware updates in secure and extensible methods.",
+        "Worked collaboratively across teams to deliver a deployment model for existing services to receive updates with no down time.",
+        "Helped perform ScrumMaster duties including mediating between engineers, stakeholders, and leadership to develop quality work that complied with changing requirements."
       ]
     },
     {
