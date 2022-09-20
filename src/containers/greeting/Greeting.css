@@ -46,8 +46,11 @@
 }
 
 .greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
 }
 .wave-emoji {
   animation-duration: 1.8s;
