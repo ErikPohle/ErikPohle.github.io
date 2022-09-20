@@ -41,6 +41,13 @@ export default function Greeting() {
               </div>
             </div>
           </div>
+          <div className="greeting-image-div">
+              <img
+                alt="myself"
+                src={require("../../assets/images/File_000.png")}
+              ></img>
+            )}
+          </div>
         </div>
       </div>
     </Fade>
