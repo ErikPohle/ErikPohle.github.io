@@ -46,7 +46,6 @@ export default function Greeting() {
                 alt="myself"
                 src={require("../../assets/images/File_000.png")}
               ></img>
-            )}
           </div>
         </div>
       </div>
